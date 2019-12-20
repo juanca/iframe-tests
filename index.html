@@ -1,8 +1,48 @@
 <html>
   <head>
     <title>Testing IFRAAAAAAMES</title>
+    <style>
+      body {
+        background-color: peru;
+      }
+    </style>
   </head>
   <body>
-    This is a test?
+    <div>
+      The following is a default iframe
+    </div>
+    <iframe src="https://example.com"></iframe>
+
+    <div>
+      The following is a 500px width
+    </div>
+    <iframe src="https://example.com" width="500px"></iframe>
+
+    <div>
+      The following is a 1000px width
+    </div>
+    <iframe src="https://example.com" width="1000px"></iframe>
+
+    <div>
+      The following is a 1500px width
+    </div>
+    <iframe src="https://example.com" width="1500px"></iframe>
+
+    <div>
+      The following is a 100% width
+    </div>
+    <iframe src="https://example.com" width="100%"></iframe>
+
+    <div>
+      The following is a back-to-back inline-block (default) iframe elements
+    </div>
+    <iframe src="https://example.com" width="500px"></iframe>
+    <iframe src="https://example.com" width="500px"></iframe>
+
+    <div>
+      The following is a back-to-back block  iframe elements
+    </div>
+    <iframe style="display: block;" src="https://example.com" width="500px"></iframe>
+    <iframe style="display: block;" src="https://example.com" width="500px"></iframe>
   </body>
 </html>
